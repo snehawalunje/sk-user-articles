@@ -1,17 +1,3 @@
-// jQuery( document ).ready(function() {
-//   //get data-id attribute on button click
-//   // jQuery("#get_usr_list").click(function(){
-//   //   var data_usr = jQuery(this).attr("data-id"); 
-//   //   alert(data_usr);
-//   // });
-
-//   //get data-id attribute on button click
-//   // jQuery("#get_post_list").click(function(){
-//   //   var data_post = jQuery(this).attr("data-id"); 
-//   //   alert(data_post);
-//   // });
-// });
-
 jQuery(document).ready(function($) {
     var GetDataScript = {
 
