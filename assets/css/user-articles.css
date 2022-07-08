@@ -1,0 +1,111 @@
+/* Slideshow container */
+.wgs-review-slideshow-container {
+  position: relative;
+}
+
+/* Slides */
+.wgs-review-mySlides {
+  display: none;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer !important;
+  position: absolute;
+}
+
+/* Position the "next button" to the right */
+
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+.wgs-img-box {
+    width: 135px;
+    height: 135px;
+    margin: 0 auto;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+}
+
+.wgs-img-box > img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 50%;
+}
+p.testimonial-content {
+    padding: 25px 0 5px;
+}
+.next-prv-wraper a.next {
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer !important;
+    text-align: center;
+    width: 47px;
+    margin: 0 30px;
+    background: #776969c4;
+    color: #fffefe;
+    overflow: hidden;
+    padding: 5px 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.next-prv-wraper a.prev {
+    left: 50%!important;
+    transform: translateX(-50%);
+    cursor: pointer !important;
+    width: 47px;
+    margin: 0 -30px;
+    background: #776969c4;
+    color: #fffefe;
+    overflow: hidden;
+    padding: 5px 10px;
+    text-align: center;
+    font-weight: bold;
+}
+.test-persondal-data-wrap {
+    display: block;
+    text-align: center;
+}
+
+.test-persondal-data-wrap h2, 
+.test-persondal-data-wrap p {
+    vertical-align: middle;
+    line-height: 1em;
+    margin: 5px 10px;
+}
+
+h2.testimonial-title {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.5em;
+}
+
+p.test-state, 
+p.test-city,
+p.test-contry {
+    display: inline-block;
+    margin: 0;
+}
+
+.grid-container {
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+
+.grid-item {
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+
+
